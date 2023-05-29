@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+body {
+    background-image: linear-gradient(#ee9ca7,#ffdde1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: linear-gradient(#FFEFBA,#FFFFFF);
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+.aaron{
+    margin-left: 5%;
+    margin-top: 180px;
+}
+
+.aaron h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 10px;
+   
+}
+
+span{
+    color: white;
+    
+}
+
+.aaron p{
+    color: #555;
+    line-height: 22px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: auto;
+    position: absolute;
+    left: 50%;
+    bottom: 300px;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+    bottom: 100px;
+}
+
+.images:hover .girl{
+    left: 45%;
+}
+
+
+.social{
+    margin-left: 46%;
+    margin-top: 250px;
+}
+ 
+.social a{
+    font-size: 30px;
+    color: #212121;
+    margin-right: 20px;
+}
+
+.social a:hover{
+    color: orange;
+}
